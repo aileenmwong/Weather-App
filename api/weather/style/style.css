@@ -12,6 +12,7 @@ body {
   width: 400px;
   height: 600px;
   margin: 0 auto;
+/*  visibility: hidden;*/
 }
 
 #currentStatus {
@@ -23,16 +24,19 @@ body {
 #city {
 /*  border: 1px solid black;*/
   font-size: 30px;
+  height: 30px;
 }
 
 #currentTemp {
 /*  border: 1px solid black;*/
-  font-size: 200px;
+  font-size: 150px;
+  height: 150px;
 }
 
 #description {
 /*  border: 1px solid black;*/
   font-size: 30px;
+  height: 30px;
 }
 
 #minMax {
@@ -53,6 +57,7 @@ body {
   font-size: 60px;
   position: relative;
   width: 200px;
+  height: 60px;
 }
 
 #submitField {

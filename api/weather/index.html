@@ -8,20 +8,24 @@
   <link rel='stylesheet' type='text/css' href='./style/reset.css'>
   <link rel='stylesheet' type='text/css' href='./style/style.css'>
   <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+  <script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="pageWrapper">
     <div id="submitField">
-      <form id="submit">
+      <!-- <form id="submit"> -->
         <input id="input" type="text" name="name" placeholder="Enter Zip Code"><br>
         <button class="button" id="zipButton">SUBMIT</button>
-      </form>
+      <!-- </form> -->
     </div>
     <div id="tempPage">
       <div id="currentStatus">
-        <div id="city">City Name</div>
-        <div id="currentTemp">75</div>
-        <div id="description">Description</div>
+        <div id="city"></div>
+        <div id="currentTemp"></div>
+        <div id="description"></div>
         <div class="empty"></div>
         <div id="minMax">
           <div id="rangeheaderwrap">
@@ -29,8 +33,8 @@
             <div class="rangeHeaders" id="maxTempheader">Max Temp</div>
           </div>
           <div id="rangetempwrap">
-            <div class="rangeTemps" id="minTemp">32</div>
-            <div class="rangeTemps" id="maxTemp">100</div>
+            <div class="rangeTemps" id="minTemp"></div>
+            <div class="rangeTemps" id="maxTemp"></div>
           </div>
           <div id="rainbow"></div>
         </div>
