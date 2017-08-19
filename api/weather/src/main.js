@@ -1,3 +1,5 @@
+//worked with Sarah Lund on homework :)
+
 $(document).ready(function() {
 console.log('main.js is connected!');
 
