@@ -1,7 +1,113 @@
-/* style needs
+body {
+  font-family: 'Antic', sans-serif;
+  text-align: center;
+}
+.empty {
+  height: 50px;
+}
+#tempPage {
+/*  border: 1px solid black;*/
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+}
 
-- a media query
-- mobile-first considerations
+#currentStatus {
+/*  border: 1px solid black;*/
+  position: relative;
+  width: 400px;
+}
 
+#city {
+/*  border: 1px solid black;*/
+  font-size: 30px;
+}
 
-*/
+#currentTemp {
+/*  border: 1px solid black;*/
+  font-size: 200px;
+}
+
+#description {
+/*  border: 1px solid black;*/
+  font-size: 30px;
+}
+
+#minMax {
+/*  border: 1px solid black;*/
+  position: relative;
+  width: 400px;
+}
+
+.rangeHeaders {
+/*  border: 1px solid black;*/
+  position: relative;
+  width: 200px;
+  font-size: 20px;
+}
+
+.rangeTemps {
+/*  border: 1px solid black;*/
+  font-size: 60px;
+  position: relative;
+  width: 200px;
+}
+
+#submitField {
+  text-align: center;
+/*  border: 1px solid black;*/
+  width: 400px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#rangeheaderwrap {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+}
+#rangetempwrap {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.button {
+  height: 20px;
+  width: 100px;
+  margin: 10px;
+  font-size: 12px;
+  font-family: 'Antic', sans-serif;
+}
+
+#input {
+  font-family: 'Antic', sans-serif;
+  text-align: center;
+  height: 24px;
+  width: 200px;
+}
+#pageWrapper {
+  background-color: #4286f4;
+  background: linear-gradient(rgba(66,134,244,0.5), rgba(66,134,244,1));
+  width: 400px;
+  margin: 0 auto;
+}
+
+#rainbow {
+  background-image: url("rainbow.png");
+  text-align: center;
+  height: 100px;
+/*  border: 1px solid black;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 33.33%;
+  position: relative;
+}
+
