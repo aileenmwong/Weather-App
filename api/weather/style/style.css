@@ -101,7 +101,7 @@ body {
 #pageWrapper {
   background-color: #4286f4;
   background: linear-gradient(rgba(66,134,244,0.5), rgba(66,134,244,1));
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 
